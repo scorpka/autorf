@@ -1,11 +1,14 @@
 #!/bin/bash
-telegram-desktop --
+export DISPLAY=:0
+export XAUTHORITY=/home/vacilica/.Xauthority
+#telegram-desktop --
+sleep 4;
 xdotool type "rf_telegram_bot";
 xdotool key Return;
 sleep 3
 for ((i = 0; i < 4; i++))
 do
-telegram-desktop --
+#telegram-desktop --
 xdotool key Return;
 xdotool type ":clas";
 sleep 1;
