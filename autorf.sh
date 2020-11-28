@@ -1,8 +1,11 @@
 #!/bin/bash
-export DISPLAY=:0
-export XAUTHORITY=/home/vacilica/.Xauthority
-#telegram-desktop --
-sleep 4;
+#/bin/bash /home/vacilica/scripts/opentg.sh
+sleep 5;
+export DISPLAY=:0;
+export XAUTHORITY=/home/vacilica/.Xauthority;
+sleep 1;
+telegram-desktop --;
+sleep 10;
 xdotool type "rf_telegram_bot";
 xdotool key Return;
 sleep 3
@@ -29,12 +32,12 @@ xdotool type -delay 300 "☠️ Локации";
 sleep 1;
 xdotool key Return;
 sleep 1;
-xdotool type -delay 300 ":desert";
+xdotool type -delay 300 ":four_c";
 sleep 1;
 xdotool key Right;
 sleep 1;
 xdotool key Return;
-xdotool type -delay 300 " 31-40 Сеттовая пустыня";
+xdotool type -delay 300 " 41-50 Элан";
 xdotool key Return;
 sleep 200;
 xdotool type -delay 300 ":kni";
